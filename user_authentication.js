@@ -19,7 +19,7 @@ async function connect() {
 		if(response.status===401){
             const url = new URL(`${urlQlikServer}/login`);
             url.searchParams.append('returnto', 'https://marcusairhart.github.io/db3/');
-            url.searchParams.append('qlik-web-integration-id', webIntegrationId);
+            url.searchParams.append('qlik-web-integration-id', '8k_IjjeD1D0LOF4SkToDmRm5vvWLf5oz');
             window.location.href = url;
         }	
     })
