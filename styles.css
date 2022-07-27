@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'bwstretch-bolduploaded_file';
+    src: url('./fonts/bw_stretch_bold-webfont.woff2') format('woff2'),
+         url('./fonts/bw_stretch_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bwstretch-bolduploaded_file';
+    src: url('./fonts/bw_stretch_bold-webfont.woff2') format('woff2'),
+         url('./fonts/bw_stretch_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.top-bar {
+    background-color: #04113B;
+    height: 55px;
+    text-align: left;
+}
+
+.nav-selection {
+    height: auto;
+    margin: 3px;
+    
+    padding: 3px;
+}
+
+.button-container {
+    position: relative;
+    height: 100%;
+    font-family:"bwstretch-bolduploaded_file" ;
+}
+
+
+#logo {
+    height: 114,75px;
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: inline-block;  
+}
+
+#logo2 {
+    height: 50px;
+    width: 279,6px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 68px;
+    margin-top: 2px;
+    
+}
+
+.page-title{
+    font-family: "bwstretch-bolduploaded_file";
+    color: #ffff;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: normal;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+.nav-button {
+    border-style: solid;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    color: #04113B;
+    font-size: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.content-container {
+    position: relative;
+    top: 27px;
+    height: auto;
+    
+    
+}
+
+.volume-container {
+    height: 200px;
+    
+}
+
+.category-banner {
+    background-color: #04113B;
+    height: 18%;
+    
+}
+
+#category-span {
+    color: #FFFF;
+    font-size: 20px;
+    position: relative;
+    
+    
+   
+}
+
+.qvobject-volume-1 {
+    width: 50%;
+    height: 350px;
+    overflow: hidden;
+    background-color: #ffff;
+    float: left;
+}
+.qvobject-volume-2 {
+    
+    width: 49%;
+    height: 350px;
+    overflow: hidden;
+    float: right;
+    background-color: #ffff;
+    
+}
+.dual-graph {
+    width: 100%;
+    height: 350px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #04113B;
+    
+}
+
+
+
+.other-container {
+    height: 400px;
+    
+}
+
+.qvobject-volume-3 {
+    
+    
+    height: 330pX;
+    overflow: hidden;
+    border-top: 10px solid #04113B;
+    
+}
+
+.column {
+  display: inline-block;
+  height: 325px;
+}
+
+.left {
+    width: 40%;
+    border: #04113B solid 1px;
+    
+  }
+  
+  .middle {
+    width: 30%;
+    border: #04113B solid 1px;
+  }
+  
+  .right {
+    width: 29.68%;
+    border: #04113B solid 1px;
+    
+  }
+
+  /* Clear floats after the columns */
+  .trio-graph {
+    overflow: hidden;
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+    border-top: 10px solid #04113B;
+
+  }
